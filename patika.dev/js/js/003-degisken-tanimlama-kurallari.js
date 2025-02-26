@@ -6,15 +6,15 @@
 // ### Degisken Genel Tanimlama Kurallari:
 // camelCase Kullanimi:
 let fullname  = "" // bu dogru kullanim degil :(
-    let tolgahantorosserverinfo = "" // bu dogru kullanim degil :(
-    let tolgahantoros_server_info = "" // bu dogru kullanim degil :(
+    let kodluyoruzserverinfo = "" // bu dogru kullanim degil :(
+    let kodluyoruz_server_info = "" // bu dogru kullanim degil :(
     let fullName = ""
-    let tolgahantorosServerInfo = "" // bu dogru :)
-    let tolgahantorosSERverInfo = "" // bu dogru kullanim degil :(
+    let kodluyoruzServerInfo = "" // bu dogru :)
+    let kodluyoruzSERverInfo = "" // bu dogru kullanim degil :(
     
-    // let firstName = "Tolgahan", lastName = "Toros"
-    let firstName = "Tolgahan"
-    let lastName = "Toros"
+    // let firstName = "Hakan", lastName = "Yalcinkaya"
+    let firstName = "Hakan"
+    let lastName = "Yalcinkaya"
     console.log(firstName, lastName)
     
     // UPPER_CASE Kullanimi:

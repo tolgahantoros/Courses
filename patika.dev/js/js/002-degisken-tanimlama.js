@@ -1,7 +1,7 @@
 // ********** let ve const ile Degisken Tanimlama ********** 
 
 // var ile degisken tanimlamak:
-// var serverName = "api.tolgahantoros.com.tr"
+// var serverName = "api.kodluyoruz.org"
 // console.log(serverName)
 
 // let ile degiskeni bos tanimlamak:
@@ -9,7 +9,7 @@ let serverName;
 console.log(serverName)
 
 // let ile degiskene bilgi atamak:
-serverName = "https://tolgahantoros.com.tr"
+serverName = "https://kodluyoruz.org"
 console.log(serverName)
 
 // let ile degiskene bilgi atayarak tanimlamak:
@@ -20,9 +20,9 @@ console.log(password)
 
 /* HATALI KULLANIM:  
 console.log(fullName)
-let fullName = "Tolgahan Toros";
+let fullName = "Hakan Yalcinkaya";
 */
-let fullName = "Tolgahan Toros";
+let fullName = "Hakan Yalcinkaya";
 
 // let ile tanimlanan degiskenin icindeki bilgiyi degistirmek:
 
