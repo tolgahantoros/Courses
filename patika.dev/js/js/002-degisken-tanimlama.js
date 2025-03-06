@@ -34,7 +34,7 @@ fullName + "Yeni Eklenen Bilgi" // acaba eklendimi ??
 console.log(fullName + " Test Bilgisi") // Ekle ve Goster ama Degiskene Eklemedik
 
 fullName = fullName + " Yeni Bilgi"
-fullName =  "2: Bilgi : " + fullName
+fullName = "2: Bilgi : " + fullName
 
 fullName = "Sifirlandi"
 fullName += " ve Yeni Bilgi Eklendi"

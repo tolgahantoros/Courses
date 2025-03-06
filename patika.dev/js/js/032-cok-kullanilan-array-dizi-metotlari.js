@@ -2,7 +2,7 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // https://www.w3schools.com/js/js_array_methods.asp
 
-let items = [1, 2, 3, 4, 5] 
+let items = [1, 2, 3, 4, 5]
 
 // Array icinde Array:
 let femaleUsers = ["Ayse", "Hulya", "Merve"]
@@ -27,7 +27,7 @@ console.log("items: ", items)
 items.unshift("lorem")
 items.push("ipsum")
 
-console.log( items.indexOf("ipsum") )
+console.log(items.indexOf("ipsum"))
 
 // Array Kopyalamak -> slice, [...ES6]
 let copyItems = items
@@ -56,6 +56,6 @@ console.log(allUsers.join(" --- "))
 
 
 // Istedigimiz Index Bilgisine Oge Eklemek -> splice(index, 0, value)
-allUsers.splice(allUsers.length -1, 0, "Melissa")
-allUsers.splice(Math.floor( allUsers.length / 2 ), 0, "Lorem")
+allUsers.splice(allUsers.length - 1, 0, "Melissa")
+allUsers.splice(Math.floor(allUsers.length / 2), 0, "Lorem")
 console.log(allUsers)

@@ -1,7 +1,7 @@
 // Array yapisina oge eklemek ve Array icerisinden istenilen ogenin cikarilmasi
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
-let items = [10, 20, 30, 40, ]
+let items = [10, 20, 30, 40,]
 console.log("items - ilk hali : ", items)
 
 // Array: sona oge/eleman eklemek -> push

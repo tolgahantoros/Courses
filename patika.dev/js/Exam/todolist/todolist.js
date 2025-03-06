@@ -19,16 +19,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const li = document.createElement("li");
     li.textContent = taskText;
     li.addEventListener("click", toggleTask);
-    
+
     const closeButton = document.createElement("span");
     closeButton.className = "close";
     closeButton.innerHTML = "&times;";
     closeButton.addEventListener("click", deleteTask);
-    
+
     li.appendChild(closeButton);
     list.appendChild(li);
     input.value = "";
-    
+
     showToast("success");
     saveTasks();
   }
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const toast = document.querySelector(`.toast.${type}`);
     toast.classList.remove("hide");
     toast.classList.add("show");
-    
+
     setTimeout(() => {
       toast.classList.remove("show");
       toast.classList.add("hide");
@@ -82,12 +82,12 @@ document.addEventListener("DOMContentLoaded", function () {
         li.classList.add("checked");
       }
       li.addEventListener("click", toggleTask);
-      
+
       const closeButton = document.createElement("span");
       closeButton.className = "close";
       closeButton.innerHTML = "&times;";
       closeButton.addEventListener("click", deleteTask);
-      
+
       li.appendChild(closeButton);
       list.appendChild(li);
     });

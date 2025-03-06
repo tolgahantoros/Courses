@@ -10,12 +10,12 @@ console.log(NEW_PRODUCTS)
 
 // aktif kullanicilar ??
 const USERS = [
-  {fullName: "Ayse Sumer", isActive: false},
-  {fullName: "Ahmet Urgan", isActive: true},
-  {fullName: "Asya Basar", isActive: true},
-  {fullName: "Aksel Durmaz", isActive: false},
+  { fullName: "Ayse Sumer", isActive: false },
+  { fullName: "Ahmet Urgan", isActive: true },
+  { fullName: "Asya Basar", isActive: true },
+  { fullName: "Aksel Durmaz", isActive: false },
 ]
 
 // const ACTIVE_USERS = USERS.filter(user => user.isActive === true)
-const ACTIVE_USERS = USERS.filter(user => user.isActive )
+const ACTIVE_USERS = USERS.filter(user => user.isActive)
 console.log(ACTIVE_USERS)

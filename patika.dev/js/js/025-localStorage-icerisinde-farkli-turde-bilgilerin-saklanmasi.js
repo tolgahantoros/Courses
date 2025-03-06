@@ -1,9 +1,9 @@
 // Local Storage Islemleri:
 // Eger tutacagimiz bilgi object ise JSON.stringify ile objeyi string yapiya cevirebiliriz.
 
-let user = {userName: "tolgahantoros", isActive: true}
+let user = { userName: "tolgahantoros", isActive: true }
 console.log(user)
-localStorage.setItem('userInfo', JSON.stringify(user) )
+localStorage.setItem('userInfo', JSON.stringify(user))
 
 
 let userInfo = localStorage.getItem('userInfo') // bilgiyi al
@@ -12,8 +12,8 @@ console.log(userInfo)
 
 
 // 2. egzersiz:
-let items = [1,2,3, user]
+let items = [1, 2, 3, user]
 // localStorage.setItem('newItems', items) // hatali :(
 localStorage.setItem('newItems', JSON.stringify(items))
 
-let newItems = JSON.parse( localStorage.getItem('newItem') ) //JSON Parse ile localStorage icindeki bilginin cekilip kullanilmasi..
+let newItems = JSON.parse(localStorage.getItem('newItem')) //JSON Parse ile localStorage icindeki bilginin cekilip kullanilmasi..

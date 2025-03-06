@@ -5,15 +5,15 @@ let price = "0"
 let user = "hakan"
 
 // == Eşitse
-console.log("== :", price == 1 )
-console.log("== :", price == 100 )
+console.log("== :", price == 1)
+console.log("== :", price == 100)
 
 // === Hem değeri hem de türü eşitse
-console.log("=== :", price === 1 )
-console.log("=== :", price === 100 )
+console.log("=== :", price === 1)
+console.log("=== :", price === 100)
 
 // != Eşit değilse
-console.log(user != "guest" )
+console.log(user != "guest")
 
 // < Küçükse
 console.log("price < 100", price < 100)
@@ -30,12 +30,12 @@ console.log("price >= 100", price >= 100)
 
 // && ve
 price = 0
-console.log( price > 0 && user != "guest" )
+console.log(price > 0 && user != "guest")
 
 // || veya
-console.log( price > 0 || user != "guest" )
+console.log(price > 0 || user != "guest")
 
 // ! degil (tersi)
 user = "guest"
 price = 1
-console.log( price > 0 && !user == "guest" )
+console.log(price > 0 && !user == "guest")

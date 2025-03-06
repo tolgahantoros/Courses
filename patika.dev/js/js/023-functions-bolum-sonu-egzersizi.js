@@ -12,6 +12,6 @@ decreaseDOM.addEventListener("click", clickEvent)
 
 function clickEvent() {
     console.log(this.id)
-    this.id == "increase" ?  counter += 1 : counter -= 1
+    this.id == "increase" ? counter += 1 : counter -= 1
     counterDOM.innerHTML = counter
 }

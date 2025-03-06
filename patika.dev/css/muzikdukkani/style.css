@@ -3,18 +3,22 @@ body {
     background-color: #F0F0F0;
     color: #333333;
 }
-header, footer {
+
+header,
+footer {
     background-color: #6C63FF;
     color: white;
     text-align: center;
     padding: 1rem 0;
 }
+
 nav a {
     margin: 0 1rem;
     text-decoration: none;
     color: #6C63FF;
     font-weight: bold;
 }
+
 nav a:hover {
     color: #FF6584;
 }
